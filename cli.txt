@@ -1,0 +1,1 @@
+docker run --rm -p 8080:8080  -e ICODE=0D23CF3A7AB3ED75 cap1573/cap-micro --registry=consul --registry_address=192.168.0.106:8500 api --handler=api
